@@ -12,34 +12,26 @@ import { useState } from "react";
 const portfolioData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "GoFood delivery App",
     image: ImageOne,
-    link: "",
+    link: "https://github.com/ram2134/Go-food-delivery-app",
   },
   {
     id: 3,
-    name: "Notes App",
-    link: "",
+    name: "To-Do App",
+    link: "https://github.com/ram2134/To-Do-App",
     image: ImageTwo,
   },
   {
-    id: 2,
-    name: "Supplier Design",
+    id: 1,
+    name: "Portfolio",
     image: ImageThree,
-    link: "",
+    link: "https://ram2134.github.io/",
   },
   {
-    id: 2,
-    name: "Todo App",
-    image: ImageFour,
-
-    link: "",
-  },
-  {
-    id: 3,
-    name: "Shopping cart design",
-    image: ImageFive,
-    link: "",
+    id: 4,
+    name: "Block-chain based recruitment management system",
+    link: "https://github.com/ram2134/ChainTalent",
   },
 ];
 

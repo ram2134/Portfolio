@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_project=self.webpackChunkportfolio_project||[]).push([[5024],{5024:(t,o,e)=>{e.d(o,{drawStar:()=>s});const r=2,a={x:0,y:0};function s(t){var o;const{context:e,particle:s,radius:n}=t,c=s.sides,i=null!==(o=s.starInset)&&void 0!==o?o:r;e.moveTo(a.x,a.y-n);for(let r=0;r<c;r++)e.rotate(Math.PI/c),e.lineTo(a.x,a.y-n*i),e.rotate(Math.PI/c),e.lineTo(a.x,a.y-n)}}}]);
+//# sourceMappingURL=5024.717304c3.chunk.js.map

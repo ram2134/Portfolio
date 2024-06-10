@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_project=self.webpackChunkportfolio_project||[]).push([[5033],{5033:(n,t,e)=>{e.d(t,{LinksPlugin:()=>s});class s{constructor(){this.id="links"}async getPlugin(n){const{LinkInstance:t}=await e.e(4290).then(e.bind(e,4290));return new t(n)}loadOptions(){}needsPlugin(){return!0}}}}]);
+//# sourceMappingURL=5033.25121779.chunk.js.map

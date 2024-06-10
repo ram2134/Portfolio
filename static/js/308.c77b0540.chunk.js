@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_project=self.webpackChunkportfolio_project||[]).push([[308],{308:(t,e,a)=>{async function o(t){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await t.addParticleUpdater("outModes",(async t=>{const{OutOfCanvasUpdater:e}=await a.e(7688).then(a.bind(a,7688));return new e(t)}),e)}a.d(e,{loadOutModesUpdater:()=>o})}}]);
+//# sourceMappingURL=308.c77b0540.chunk.js.map

@@ -11,6 +11,12 @@ import { useState } from "react";
 
 const portfolioData = [
   {
+    id: 5,
+    name: "My Resume",
+    image: ImageFive,
+    link: "https://drive.google.com/drive/folders/1ao4mY03w1xYGf5pshdGDeuYTmmhkk-VO?usp=sharing",
+  },
+  {
     id: 2,
     name: "GoFood delivery App",
     image: ImageOne,
@@ -30,7 +36,7 @@ const portfolioData = [
   },
   {
     id: 4,
-    name: "Block-chain based recruitment management system",
+    name: "Chain Talent",
     link: "https://github.com/ram2134/ChainTalent",
   },
 ];
@@ -60,6 +66,9 @@ const Portfolio = () => {
 
   function handleHover(index) {
     setHoveredValue(index);
+  }
+  function redirectTo(url) {
+    window.location.href = url;
   }
 
   console.log("====================================");
@@ -108,7 +117,7 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Visit</button>
+                    <button onClick={() => redirectTo(item.link)}>Visit</button>
                   </div>
                 )}
               </div>

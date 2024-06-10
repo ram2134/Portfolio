@@ -2,19 +2,19 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
+import ResumeImage from "../../images/image6.png";
+
 const Home = () => {
   const navigate = useNavigate();
+
   const handleNavigateToContactMe = () => {
     navigate("/contact");
   };
+
   return (
     <div id="home" className="home">
       <div className="home_text-wrapper">
-        <h1>
-          Hello, I'm Ram Chandra
-          <br />
-          Welcome to my world
-        </h1>
+        <h1>Hello, I'm Ram Chandra</h1>
       </div>
       <Animate
         play
